@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.sidebar{
+    background-color: aqua;
+    position: sticky;
+}
+.main{
+    padding: 120px;
+    width: 50%;
+}
+.container{
+    display: flex;
+
+}
+.abt li{
+    padding: 35px 22px;
+    list-style: none;
+    list-style:none;
+}
+.abt li a{
+    text-decoration: none;
+}
+.navbar .up{
+     text-align: left;
+     padding: 27px ;
+     padding-left: 43px;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: PortFOLIO;
+    animation-duration: 4s;
+    color: red;
+}
+@keyframes PortFOLIO{
+    from {color: red;}
+    to {color: rgb(152, 162, 12);}
+  }
+.navbar{
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    
+    
+}
+.navbar .abt{
+    display: flex; 
+   margin-left: 880px;
+   position: sticky;
+   
+}
+.clr{
+    display: flex;
+}
+.clr img{
+    height: 50vh;
+    width: 50vh;
+    padding: 23px 33px;
+  
+
+}
+.main{
+    width: 50%;
+}
+.main h2{
+    
+    padding:  22px 0px;
+    letter-spacing: 0px;
+    font-family: monospace;
+    border-right: 0px solid;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation: 
+    typing 2s ,
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color:transparent};
+}
+@keyframes typing{
+   from {width: 0} 
+}
+.main p{
+    font-size: 17px;
+    color: rgb(48, 37, 56);
+}
+.back{
+    text-align: center;
+    background-color: rgb(221, 176, 202);
+    padding: 29px;
+ 
+}
+.p .skill{
+    width:50%;
+    padding-left: 123px;
+}
+.p h2{
+    padding: 40px;
+    text-align: center;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.skill p{
+    color: rgb(76, 76, 127);
+    height: 44px;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+   
+}
+.img{
+    padding-left: 43px;
+}
+.img img{
+    width: 70vh;
+    height: 40vh;
+    justify-content: right;
+   
+    border-radius: 13px;
+  
+}
+.both{
+    display: flex;
+    padding: 83px 0px;
+}
+.p h4{
+     font-size: large;
+     padding: 20px 0px;
+
+}
+.p h6{
+    font-size: 20px;
+    color: rgb(144, 229, 95);
+}
+.p .ig{
+    width: 50%;
+    padding-left: 24px;
+}
+.p .skl{
+    width: 50%; 
+    justify-content: right;
+}
+.ig img{
+    width: 89vh;
+    height: 45vh;
+    border-radius: 38px;
+}
+.cv{
+    display: flex;
+
+}
+.p1{
+    background-color: rgb(251, 238, 253);
+}
+.p1 .cv{
+    padding: 32px 82px;
+   font-size: 33px;
+}
+.p1 .head{
+    color: rgb(68, 238, 12);
+    font-size: 21px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.p2 h2{
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+.p2{
+    background-color: rgb(242, 226, 247);
+}
+.p2 .abc{    
+    padding: 22px 73px;
+}
+
